@@ -1,12 +1,4 @@
 {
-  "response": {
-  "version":"0.1",
-  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
-  "features": {
-  "conditions": 1
-  }
-	}
-  ,
   "prices" : {
       "BasicFrameCleaning" : "5",
       "InspectFrame" : "25",
