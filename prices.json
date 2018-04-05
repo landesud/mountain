@@ -1,7 +1,5 @@
 {
-  "prices": {
       "BasicFrameCleaning": "5",
       "InspectFrame": "25",
-       "TrueWheels": "25",
-	  }
+      "TrueWheels": "25"
 }
