@@ -2,18 +2,18 @@
       "prices":{
       "BasicFrameCleaning": "5",
       "InspectFrame": "6",
-      "TrueWheels": "8"
-	  "AdjustHubs": "2"
-	  "AdjustBottomBracket": "4"
-	  "AdjustHeadset": "5"
-	  "AdjustDerailleurs": "2"
-	  "TightenCrankarms": "2"
-	  "TightenandLubePedals": "6"
-	  "LubricateallPivotPoints": "5"
-	  "TorqueallBolts": "5"
-	  "InspectandLubeChain": "7"
-	  "InspectCassetteforWear": "3"
-	  "InflateTiresandInspectforDamageandWear": "15"
+      "TrueWheels": "8",
+	  "AdjustHubs": "2",
+	  "AdjustBottomBracket": "4",
+	  "AdjustHeadset": "5",
+	  "AdjustDerailleurs": "2",
+	  "TightenCrankarms": "2",
+	  "TightenandLubePedals": "6",
+	  "LubricateallPivotPoints": "5",
+	  "TorqueallBolts": "5",
+	  "InspectandLubeChain": "7",
+	  "InspectCassetteforWear": "3",
+	  "InflateTiresandInspectforDamageandWear": "15",
 	  "TestRide": "5"
       }
 }
