@@ -1,0 +1,32 @@
+@media only screen and (min-width: 64em) {
+
+nav ul.hide{
+    margin: 0;
+    padding: 0;
+    background-color:darkred;
+    max-height: inherit;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar li{
+    list-style: none;
+    max-height: inherit;
+    flex:1;
+    text-align: center;
+    border-right: 0.5px solid burlywood;
+    border-left: 0.5px solid burlywood;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.5em;
+    color:white;
+    font-weight: bold;
+    max-height: inherit;
+    display: grid; 
+}    
+    /*SALES*/
+    #grid{
+    grid-template-columns: auto auto auto;
+    }
+}

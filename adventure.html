@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>The Mountain Spoke</title>
+       <meta name="author" content="Emmanuel Landeros">
+        <meta name="keywords" content="Bikes, Adventure, Events, Bike service, Bike Sales, Mountain Tours">
+          <meta name="description" content="The Mountain Spoke provides meaningful adventures in the Mountains and the best professional service for your Bike."> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href="css/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+          <link href="css/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+          <link href="css/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+          <link href="css/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+          <link href="https://fonts.googleapis.com/css?family=Chicle|Roboto" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <figure>
+  <img src="images/high.png"
+     srcset="images/low.png 300w, images/med.png 640w, images/high.png 1000w">
+                <figcaption><h1>The Mountain Spoke</h1></figcaption>
+    </figure>
+   
+        </header>
+        
+        <nav class="navbar">
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul class="hide" id="primaryNav">
+                 <li><a href="index.html">Home</a></li>
+                 <li class="active"><a href="adventure.html">Adventure Tours</a></li>
+                 <li><a href="event.html">Events</a></li>
+                 <li><a href="sales.html">Sales</a></li>
+                 <li><a href="service.html">Service</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h2>OUR TWO LAST ADVENTURES</h2>
+        <main class="flex">
+        <section>
+            <h3>Utah Hills</h3>
+            <img class="img" src="images/adventure1.png" alt="Guys on their bikes in the desert"/>
+            <br/>
+            <p class="indent">This was an amazing adventure in which we could go over multiple paths. We needed to be wise to go over the rocks, 
+            sand and be careful when riding hills.
+            </p>
+            <div class="clear">
+            <p><b>Length: </b> 5 Miles.</p>
+            <p><b>Experience required: </b> Expert.</p>
+            <p><b>Cost: </b> $ 200 USD.</p>
+            <p><b>Location: </b> Utah.</p>
+            </div>
+        </section>
+         <section>
+            <h3>Salmon-Challis - Idaho</h3>
+             <img class="img" src="images/adventure2.jpg" alt="Guys on their bikes in the woods"/>
+             <br/>
+             <p class="indent">In this adventure we could go accross a forest. We needed to go over rivers, different paths and rocks. We could admire the beauty of nature and even see some wild animals.</p>
+             <div class="clear">
+            <p><b>Length: </b> 10 Miles.</p>
+            <p><b>Experience required: </b> Intermediate.</p>
+            <p><b>Cost: </b> $ 400 USD.</p>
+            <p><b>Location: </b> Idaho.</p>
+            </div>
+        </section>
+        </main>
+        <footer class="flex">
+          <div><h3>Contact</h3>
+             <address>            
+                <p>3950 Valley Commons Drive Bozeman, MT</p>
+                <p>Phone:55-555-555</p>
+                 <p>Cell:55-555-555</p>
+                </address>
+            </div>
+            <div>
+               
+            <h3>Visit us on our social networks</h3>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook"/></a>
+            <a href="https://plus.google.com/" target="_blank"><img src="images/googleplus.png" alt="Google Plus"/></a>
+            <a href="https://youtu.be/AlNmYc6Axbw" target="_blank"><img src="images/youtube.png" alt="YouTube"/></a>
+            </div>
+            
+        </footer>
+        <p class="center">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate">Current Date Placeholder</span></p>
+        <script src="js/currentdate.js"></script>
+         <script src="js/hamburger.js"></script>
+        
+    </body>
+</html>
